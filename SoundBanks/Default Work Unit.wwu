@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33DB3154-ABE0-49CE-A36A-5C955DA577D1}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{33DB3154-ABE0-49CE-A36A-5C955DA577D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainSoundbank" ID="{C4FA038D-3408-4E91-B179-85F729118AC9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_PoserFeuille" ID="{E56298E6-359C-4032-9528-BD1F410FD95B}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_RandomFloor" ID="{4822F49D-7180-40CE-853C-249324EF4606}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreVerre" ID="{FE235E3E-96B0-40E2-BEF4-402E47298B78}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PoserBouteille" ID="{F84BE0B7-0EF9-40EC-AA93-7CB50EC8CD40}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreBouteille" ID="{6C6BFC75-DD5C-4178-B172-0FF41275276D}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_TV" ID="{CA19938D-DE43-4305-9ADC-CA2FAAEBC17D}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ventilateur" ID="{B65D4528-CBEB-4311-9ED5-5E4210ECC369}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PoserLivre" ID="{45F16D55-80E7-4446-BDCB-D463F1FDFF62}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_TV" ID="{7B24FE50-F10C-452F-B0F1-FAC1B5351733}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreCle" ID="{93222170-0DD6-45F8-8D75-F4C271B908C0}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PoserCle" ID="{31EF9BF9-5C6F-45FB-8673-651F2C97B75A}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Lampe" ID="{23925615-E651-4624-82ED-BB20D9737C76}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreCendrier" ID="{64F90D5C-DC09-469A-9E07-1080A78E6DDB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Nothing" ID="{02CF34C4-0766-496B-94E5-CE82D34CE9AE}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambient" ID="{1B12B2EB-3408-4A0C-9881-A2F0023C9F54}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Armoire_Ouvrir" ID="{2FD57DCE-AF61-4B41-BCE7-7026FB8E0EA9}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreFeuille" ID="{021E2759-326D-4BD3-9AA8-B3C9A60D2C20}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PoserCendrier" ID="{14FDC741-E427-4BE7-83DB-BA9BB61B1F20}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PoserVerre" ID="{351FD360-CAEE-4E50-B45E-B67467861DEA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PrendreLivre" ID="{8C44A29E-2C34-4FBD-B5B3-E197BB4536BC}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A03A58CF-762C-466A-800D-B63CA387B0E0}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{A03A58CF-762C-466A-800D-B63CA387B0E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Navigation" ID="{BDACB7E6-6807-4C9C-A058-8816580734C1}">
+					<ChildrenList>
+						<State Name="None" ID="{91434B82-3BAE-42D9-9B2A-E1E80323595D}"/>
+						<State Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
+						<State Name="Menu" ID="{30A95CC4-5E18-4A11-B2FB-E2BF4BF008CB}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GroundType" ID="{CAA7E59C-6C82-4A5C-8F07-9F13610F2ECF}">
+					<ChildrenList>
+						<State Name="None" ID="{E073E90D-69AB-4837-80D3-A059323FFE45}"/>
+						<State Name="Tapis" ID="{F3F9C785-61A4-423D-B4BC-96092D85E268}"/>
+						<State Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

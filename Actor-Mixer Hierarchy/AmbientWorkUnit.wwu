@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{94315791-350B-40C8-BB1B-CB85633B766A}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="AmbientWorkUnit" ID="{94315791-350B-40C8-BB1B-CB85633B766A}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Ambient" ID="{E5FCCDF0-ED3C-4311-A027-49761387361F}" ShortID="159417748">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ATMOSPHERE" ID="{AA7C4224-4C34-4500-AAF9-CF871A548B59}" ShortID="916590850">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Test" ID="{1EAE3499-FAD3-4BEB-A20A-2305271BF471}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ATOMSPHERE" ID="{2539EE5F-AB5A-46EE-9F33-2147D4698549}" ShortID="397175661">
+									<Language>SFX</Language>
+									<AudioFile>ATOMSPHERE.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ATOMSPHERE" ID="{2539EE5F-AB5A-46EE-9F33-2147D4698549}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" ShortID="820778186">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{28E078AF-6CE5-4686-AB11-F1DF2C852228}" ShortID="989258037">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{0C81B5DF-9D08-4AEC-872C-21ECF576E877}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{FD8CB1D7-6CAD-4759-AE02-DE3E25F8ADC9}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>14.89028</XPos>
+															<YPos>22</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFXAuro" ID="{DAEEFF07-CF35-4A7D-B39C-2C02BA4CB03A}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PARQUET-003" ID="{91DA988F-FF99-43C3-9370-EEC6CEA8AEDD}" ShortID="803883732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PARQUET-003" ID="{9F7F830B-585B-4AA0-AABE-6C6AB38FA7CB}" ShortID="846808034">
+									<Language>SFX</Language>
+									<AudioFile>PARQUET-003.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PARQUET-003" ID="{9F7F830B-585B-4AA0-AABE-6C6AB38FA7CB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PARQUET-002" ID="{8E24EDC6-160B-445D-8DDB-83387568530D}" ShortID="1018420566">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PARQUET-002" ID="{8FBB97A8-EAC8-4829-A1EF-2F73CDA3535F}" ShortID="396302910">
+									<Language>SFX</Language>
+									<AudioFile>PARQUET-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PARQUET-002" ID="{8FBB97A8-EAC8-4829-A1EF-2F73CDA3535F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PARQUET-005" ID="{E33BAA0D-0804-404A-B5F1-C1BD80A3D343}" ShortID="700195999">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PARQUET-005" ID="{56B9E4D5-A000-4AC4-A8E6-2706DD03F27D}" ShortID="31236994">
+									<Language>SFX</Language>
+									<AudioFile>PARQUET-005.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PARQUET-005" ID="{56B9E4D5-A000-4AC4-A8E6-2706DD03F27D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PARQUET-001" ID="{EBE98F38-E47A-484D-ACCA-C2BEEF7D22C3}" ShortID="121379752">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PARQUET-001" ID="{23EAAAFD-03A2-4CCA-82D2-A92BF77AC841}" ShortID="410541730">
+									<Language>SFX</Language>
+									<AudioFile>PARQUET-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PARQUET-001" ID="{23EAAAFD-03A2-4CCA-82D2-A92BF77AC841}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PARQUET-004" ID="{CA94D4E1-130A-4C1E-992F-57D868BE11AC}" ShortID="418765490">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PARQUET-004" ID="{841DF9BA-0532-4D1D-80B3-7201940A5229}" ShortID="662016114">
+									<Language>SFX</Language>
+									<AudioFile>PARQUET-004.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PARQUET-004" ID="{841DF9BA-0532-4D1D-80B3-7201940A5229}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{82EE533C-0BA2-4AFE-B17C-656AAB53943F}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="5.36237720893951E-14"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<BlendContainer Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" ShortID="796927258">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="79"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="TV_Attenuation" ID="{9508F5CD-B640-4E49-A785-52AF2B6044C9}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="TV_EMIT" ID="{FD7601B0-AA15-4DFC-AB2C-880A3D5691DB}" ShortID="897233970">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="TV_EMIT" ID="{A2F8BC05-DFF1-463C-921A-2E55F196162F}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TV_EMIT" ID="{E6DBC325-E69B-4035-8094-DD9E603655CF}" ShortID="69543352">
+									<Language>SFX</Language>
+									<AudioFile>TV_EMIT.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TV_EMIT" ID="{E6DBC325-E69B-4035-8094-DD9E603655CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TV_STATIC" ID="{4019E8DA-D229-4DC9-9D9F-CCFDAF4A0545}" ShortID="667907395">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TV_STATIC" ID="{D98A5139-C79E-4C0A-89C4-6879821C0F97}" ShortID="545437078">
+									<Language>SFX</Language>
+									<AudioFile>TV_STATIC.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TV_STATIC" ID="{D98A5139-C79E-4C0A-89C4-6879821C0F97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="LAMPE" ID="{87E31034-DFC8-4CCD-8B10-54E88C324691}" ShortID="423913071">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="65"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Lampe_Attenuation" ID="{97122755-5356-4F97-B643-8E9102033D8F}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LAMPE" ID="{1C4E8626-C128-4736-A0EC-74FC84FE775E}" ShortID="771304780">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1.5"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.520226455479452"/>
+								<Property Name="LoopEnd" Type="Real64" Value="24.710756635274"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>LAMPE.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LAMPE" ID="{1C4E8626-C128-4736-A0EC-74FC84FE775E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VENTILATEUR" ID="{9551F336-2ABF-4E43-A257-68A82E898D8C}" ShortID="943801071">
+					<Comment>REPLACE</Comment>
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{907366B1-9BA9-4566-AB84-25E42B359CE9}" ShortID="239507738">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="DistanceVentilateur" ID="{187C8D72-529C-4B9F-9053-6936834C77C9}" WorkUnitID="{78554DE0-354C-495A-A4B3-B2567860F9CF}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B8BF61D7-BD65-4F4E-8980-0E6D2B733CB1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-12.04119</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>52.97927</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ventilateur_Attenuation" ID="{262991D6-7F53-467B-8763-5F27C220612D}" WorkUnitID="{EDF5638A-ECA5-490A-845E-E799E3843FE6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VENTILATEUR" ID="{C04B9142-58B9-4FC9-98A9-902E06FB454E}" ShortID="311511211">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1.5"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.51239390696347"/>
+								<Property Name="LoopEnd" Type="Real64" Value="26.7376456906393"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>VENTILATEUR.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VENTILATEUR" ID="{C04B9142-58B9-4FC9-98A9-902E06FB454E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Voiture" ID="{E21E6F81-86F4-40C5-9BAA-A5FBF9136033}" ShortID="199237931">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}">
+					<ChildrenList>
+						<Action Name="" ID="{516701DB-D1AA-4235-8D53-B5F40700E14B}" ShortID="12948407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepTrig" ID="{A7AA0BB9-B5C7-4EF7-8AAF-704933F446C7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}">
+					<ChildrenList>
+						<Action Name="" ID="{988DC867-62DA-4E81-A81B-F60B6CB58B88}" ShortID="499493509">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepTrig" ID="{A7AA0BB9-B5C7-4EF7-8AAF-704933F446C7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Props" ID="{EBDA0AA0-F061-4B06-8088-FF2B08A1D840}" ShortID="24744841">
+					<ChildrenList>
+						<Folder Name="Poser" ID="{16F07003-B3B7-4D0C-A81F-98B27DB2C87E}" ShortID="476038357">
+							<ChildrenList>
+								<Event Name="Play_PoserVerre" ID="{351FD360-CAEE-4E50-B45E-B67467861DEA}">
+									<ChildrenList>
+										<Action Name="" ID="{8DFD81C0-2BFA-4005-86C6-AA6731430629}" ShortID="207266657">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{1C8ED18D-0139-4FE1-A5D2-688C1A6EE2D6}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PoserBouteille" ID="{F84BE0B7-0EF9-40EC-AA93-7CB50EC8CD40}">
+									<ChildrenList>
+										<Action Name="" ID="{E7CE84BC-AFC8-4771-8ACA-5A277A90065C}" ShortID="601476248">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{59D0BADF-4B71-4B1D-BCE8-A47BBC3715C7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6B6DF22F-6F1F-47B2-8092-A382F1005C0B}" ShortID="1049243134">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="LIQUIDE" ID="{098F7039-70D9-486B-8FA9-B71E2FC11624}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PoserCendrier" ID="{14FDC741-E427-4BE7-83DB-BA9BB61B1F20}">
+									<ChildrenList>
+										<Action Name="" ID="{24923518-9537-471F-9C0A-17B64C9AEC80}" ShortID="70042168">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{7A6C9949-6742-4F1F-A73B-C661ACE2749D}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PoserCle" ID="{31EF9BF9-5C6F-45FB-8673-651F2C97B75A}">
+									<ChildrenList>
+										<Action Name="" ID="{C0EF189E-2C12-4ECD-A30F-492087C6CB63}" ShortID="576939200">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{879DC8C8-ACA2-47A0-9A6A-22550994C504}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PoserLivre" ID="{45F16D55-80E7-4446-BDCB-D463F1FDFF62}">
+									<ChildrenList>
+										<Action Name="" ID="{CFDB3C1E-704C-40FE-B733-4E588055AF42}" ShortID="500048438">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{F282E7BD-24C5-4A80-9A6E-9A6FFCC24BF7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PoserFeuille" ID="{E56298E6-359C-4032-9528-BD1F410FD95B}">
+									<ChildrenList>
+										<Action Name="" ID="{F95982F8-071C-4C10-BC6C-AC0F60D5579C}" ShortID="89826972">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="POSER" ID="{218840C4-F633-46AB-92B9-D0EDAF8C8532}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Prendre" ID="{965E4FB3-89AD-4706-926A-6888E0E99E0F}" ShortID="951633203">
+							<ChildrenList>
+								<Event Name="Play_PrendreVerre" ID="{FE235E3E-96B0-40E2-BEF4-402E47298B78}">
+									<ChildrenList>
+										<Action Name="" ID="{7E681E8F-905F-405D-8B23-9A6A1D3AE25B}" ShortID="307383048">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{9C1CD3F6-48C1-4601-AA25-93790C4922AB}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PrendreBouteille" ID="{6C6BFC75-DD5C-4178-B172-0FF41275276D}">
+									<ChildrenList>
+										<Action Name="" ID="{7A082E68-E864-4481-9B62-F6C635AB6D09}" ShortID="823059017">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{2A260B44-C5BF-47FD-AFF7-A3D7B3A305F7}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{4594CE6B-D668-4BFF-9D92-99C7DAA9AFF1}" ShortID="644953350">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="LIQUIDE" ID="{098F7039-70D9-486B-8FA9-B71E2FC11624}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PrendreCendrier" ID="{64F90D5C-DC09-469A-9E07-1080A78E6DDB}">
+									<ChildrenList>
+										<Action Name="" ID="{8549463D-833C-4833-89B9-5D717C0E9E7F}" ShortID="977861607">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{ADA3A45B-73FC-4889-A8A9-0CA126A71910}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PrendreFeuille" ID="{021E2759-326D-4BD3-9AA8-B3C9A60D2C20}">
+									<ChildrenList>
+										<Action Name="" ID="{DC269342-0D69-4125-9BB6-B82A6D1863E8}" ShortID="206035082">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{6A121ABA-57CE-4F98-A631-12DC7C90EF84}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PrendreCle" ID="{93222170-0DD6-45F8-8D75-F4C271B908C0}">
+									<ChildrenList>
+										<Action Name="" ID="{597E4B1C-F542-4595-88A7-FC846B1110A0}" ShortID="633358995">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{B4A0C8C8-19F9-47D3-BEDA-3A8BD8161156}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PrendreLivre" ID="{8C44A29E-2C34-4FBD-B5B3-E197BB4536BC}">
+									<ChildrenList>
+										<Action Name="" ID="{4DF2ECAB-3159-4663-AC35-6F0BE46D728D}" ShortID="393749999">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PRENDRE" ID="{6CA54D1F-5273-4847-B8CB-E63450E4415A}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{CADAF950-A695-4763-98BC-1BAB178544C9}" ShortID="815028848">
+					<ChildrenList>
+						<Event Name="Play_Ventilateur" ID="{B65D4528-CBEB-4311-9ED5-5E4210ECC369}">
+							<ChildrenList>
+								<Action Name="" ID="{050E5F1D-6622-4C3B-9D19-9ECD17C2D5AB}" ShortID="22536318">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VENTILATEUR" ID="{9551F336-2ABF-4E43-A257-68A82E898D8C}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambient" ID="{1B12B2EB-3408-4A0C-9881-A2F0023C9F54}">
+							<ChildrenList>
+								<Action Name="" ID="{73144F4C-D4D4-4C1D-80BC-167EB8439F45}" ShortID="931765917">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient" ID="{E5FCCDF0-ED3C-4311-A027-49761387361F}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RandomFloor" ID="{4822F49D-7180-40CE-853C-249324EF4606}">
+							<ChildrenList>
+								<Action Name="" ID="{3C5C6693-1762-49BD-AF1D-3195567350D4}" ShortID="153479766">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Floor" ID="{54DA8B5F-43DE-499E-93E2-61ACD3A2793E}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}">
+							<ChildrenList>
+								<Action Name="" ID="{5C1D0394-826B-42F3-9C7C-E63C380239B3}" ShortID="1054190350">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lampe" ID="{23925615-E651-4624-82ED-BB20D9737C76}">
+							<ChildrenList>
+								<Action Name="" ID="{96E029B7-8FB0-479C-A3D9-5428BD00A24C}" ShortID="879273134">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LAMPE" ID="{87E31034-DFC8-4CCD-8B10-54E88C324691}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_TV" ID="{7B24FE50-F10C-452F-B0F1-FAC1B5351733}">
+							<ChildrenList>
+								<Action Name="" ID="{22105FE5-EAE0-4159-B58D-5098A6FA0581}" ShortID="898318600">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_TV" ID="{CA19938D-DE43-4305-9ADC-CA2FAAEBC17D}">
+							<ChildrenList>
+								<Action Name="" ID="{60691AC7-6201-4251-A72E-D589A21F8681}" ShortID="169326967">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Nothing" ID="{02CF34C4-0766-496B-94E5-CE82D34CE9AE}">
+					<ChildrenList>
+						<Action Name="" ID="{7AF7D059-6EAD-4DAE-AFDC-79FE04F0319B}" ShortID="1002101713">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NOTHING" ID="{AFAB7940-DBE3-4E0C-9A74-CE845618F2E2}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}">
+					<ChildrenList>
+						<Action Name="" ID="{7B8551A1-1438-4AA6-AB24-2E141F977DBF}" ShortID="392660718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreFerme" ID="{3D6B2982-BF8A-4523-AE84-BE0EAC1BEBAD}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StoreOuvre" ID="{15F33E76-A62E-41AC-BCE5-A9714FEE4D4B}">
+					<ChildrenList>
+						<Action Name="" ID="{B300E819-0AD9-4348-8E20-1206C7E33211}" ShortID="316483944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StoreOuvre" ID="{559A3E87-8F2D-4E60-8D4A-34AF22EA632E}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Armoire_Ouvrir" ID="{2FD57DCE-AF61-4B41-BCE7-7026FB8E0EA9}">
+					<ChildrenList>
+						<Action Name="" ID="{EDB0F12B-7048-479A-B2C8-4743C4811FB8}" ShortID="407448584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ARMOIRE_OUVRIR" ID="{F054A15A-817E-44EE-9E00-7518E09F8526}" WorkUnitID="{07B9C8AA-EC59-4A5B-B5D3-D3992EF45C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

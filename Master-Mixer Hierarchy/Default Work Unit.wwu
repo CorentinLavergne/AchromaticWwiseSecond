@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B79FF5CF-38FF-4B48-BF90-95471675F5A8}" WorkUnitID="{F94C678E-3342-49A4-9DC7-A995C8D789EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambient" ID="{0776579B-CDE2-4C92-A023-C13AC7E37FC8}">
+							<ChildrenList>
+								<Bus Name="TV_EMIT" ID="{A2F8BC05-DFF1-463C-921A-2E55F196162F}">
+									<PropertyList>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="0"/>
+										<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_Meter_(Custom)" ID="{CD64D03C-D164-4006-A2CB-404BA019E0F5}" ShortID="674224535" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<PropertyList>
+														<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+														<Property Name="MeterMode" Type="int32" Value="1"/>
+														<Property Name="Min" Type="Real32" Value="-46.6"/>
+														<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+													</PropertyList>
+													<PluginData>
+	<GameParameter Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}"/>
+</PluginData>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="TV_STATIC" ID="{A21E1EAC-49CA-47D2-9632-38F8BD7D46CB}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7BB9050C-DD1A-40BA-867E-BC82E7148836}" ShortID="364635939">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}" WorkUnitID="{78554DE0-354C-495A-A4B3-B2567860F9CF}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{971BF897-2929-4B46-A3D1-E3B903547486}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0.05527</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-46.14907</XPos>
+																<YPos>0.17245</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-44.32073</XPos>
+																<YPos>-34.96376</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX" ID="{535FD0A0-BDBE-4BFB-AD28-BBBE71C38F1C}"/>
+						<Bus Name="Music" ID="{36EDE414-5B1C-45DD-922F-15D7ECFE2A34}"/>
+						<Bus Name="SFXAuro" ID="{DAEEFF07-CF35-4A7D-B39C-2C02BA4CB03A}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Auro_Headphone_(Custom)" ID="{4AD084A0-C1E6-4E53-BBFA-3B455E073665}" ShortID="460852095" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+											<PropertyList>
+												<Property Name="Reverb" Type="bool" Value="False"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{2E146392-D718-4096-BAFF-8D934EC71912}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_RoomVerb_(Custom)" ID="{DD5CCE6C-1C63-44B0-8B20-370FA528BB37}" ShortID="44452220" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="RoomSize" Type="Real32" Value="14"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

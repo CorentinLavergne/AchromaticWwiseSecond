@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5E8B659-B244-4529-B30F-D6DAF4DE0A5C}" SchemaVersion="94">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{B5E8B659-B244-4529-B30F-D6DAF4DE0A5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Trigger_Stin_Armoire" ID="{B9B2848E-D563-4A22-B935-98D5196CE433}"/>
+				<Trigger Name="New_Trigger" ID="{55B6867C-25A8-4572-88B7-94F59CA0AC6C}"/>
+				<Trigger Name="Trigger_Stin_Store" ID="{AA45F433-6BAF-43CF-9B1E-07470066495C}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{F2A0D96B-6F9F-4229-B6A3-168F45197355}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Virage_Switch" ID="{FF97561A-2CFA-4505-9650-E970F614EA44}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="On" ID="{FC63ED03-F385-4ABB-BC2B-45A513B52DF1}"/>
+						<Switch Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Acceleration_Rot_RTPC" ID="{0530DAEA-A922-4A08-A018-98B86269F857}"/>
+						<Curve Name="" ID="{E60CD35E-511C-4A29-8615-432C841BA6B5}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>13.68243</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

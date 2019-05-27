@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78554DE0-354C-495A-A4B3-B2567860F9CF}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{78554DE0-354C-495A-A4B3-B2567860F9CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="TVSideChain" ID="{D0FD085B-ED9F-423D-B3EC-170835EAF9FA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DistancePiece" ID="{52071E5D-4BA3-4524-8E85-EF96EA0512FB}"/>
+				<GameParameter Name="Acceleration_Rot_RTPC" ID="{0530DAEA-A922-4A08-A018-98B86269F857}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DistanceVentilateur" ID="{187C8D72-529C-4B9F-9053-6936834C77C9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

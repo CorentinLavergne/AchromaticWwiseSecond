@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{749F3AAC-8AD7-4758-B0D3-2B714B87CA03}" SchemaVersion="94">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{749F3AAC-8AD7-4758-B0D3-2B714B87CA03}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="EQ_Tempo_Music" ID="{10B15A72-088E-4A66-A73B-3464F62529B0}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="GainBand3" Type="Real32" Value="-5.5"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
