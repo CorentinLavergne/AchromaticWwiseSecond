@@ -268,6 +268,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Horloge" ID="{2C5FA33E-C647-488A-B78A-0955B799B094}">
+							<ChildrenList>
+								<Action Name="" ID="{39AEDDD5-68C2-4EA5-9880-A898394D2A23}" ShortID="828403569">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HORLOGE" ID="{CB193D56-052E-44D0-93AA-3F0BB041E4E3}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Nothing" ID="{02CF34C4-0766-496B-94E5-CE82D34CE9AE}">

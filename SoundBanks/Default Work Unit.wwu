@@ -21,6 +21,7 @@
 						<ObjectRef Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lampe" ID="{23925615-E651-4624-82ED-BB20D9737C76}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PrendreCendrier" ID="{64F90D5C-DC09-469A-9E07-1080A78E6DDB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Horloge" ID="{2C5FA33E-C647-488A-B78A-0955B799B094}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_StoreFerme" ID="{61E7A9AD-7CB0-489B-B500-34AD5882A824}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Nothing" ID="{02CF34C4-0766-496B-94E5-CE82D34CE9AE}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambient" ID="{1B12B2EB-3408-4A0C-9881-A2F0023C9F54}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}" Filter="7" Origin="Manual"/>
