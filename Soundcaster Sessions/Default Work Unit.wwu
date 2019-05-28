@@ -30,12 +30,24 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_StoreFirst" ID="{207078A1-7147-468B-9343-BD5E44D95C0E}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Player_Move" ID="{04B469C8-85DB-4A58-9C11-FD7ABED4B4EA}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
 							<Position X="4" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Player_Stop" ID="{04901BAE-07E5-461E-BB2D-C944012A6964}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
 							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartMusic" ID="{64A958BC-646A-4331-B894-18FE1E68CBCB}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Armoire_Ouvrir" ID="{2FD57DCE-AF61-4B41-BCE7-7026FB8E0EA9}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
+							<Position X="4" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -85,7 +97,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Acceleration_Rot_RTPC" ID="{0530DAEA-A922-4A08-A018-98B86269F857}"/>
-							<Value>0</Value>
+							<Value>9.5814595242451E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="DistanceVentilateur" ID="{187C8D72-529C-4B9F-9053-6936834C77C9}"/>
@@ -107,6 +119,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
 						<CurrentStateRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
+						<CurrentStateRef Name="No" ID="{F2862166-A659-473E-94C1-B52427A10DD1}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>

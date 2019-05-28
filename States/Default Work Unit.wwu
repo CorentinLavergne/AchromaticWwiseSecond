@@ -17,6 +17,13 @@
 						<State Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="InMenu" ID="{745B0C81-41CE-4DB0-B8D4-50DD6E115F8B}">
+					<ChildrenList>
+						<State Name="None" ID="{6E983BEB-735D-40EB-88CF-FB7EC44ECBCB}"/>
+						<State Name="No" ID="{F2862166-A659-473E-94C1-B52427A10DD1}"/>
+						<State Name="Yes" ID="{3FE4D6C0-5D7A-4F4F-8192-C2B2ED755F88}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

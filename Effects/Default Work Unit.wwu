@@ -8,6 +8,19 @@
 						<Property Name="GainBand3" Type="Real32" Value="-5.5"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="EQ_Cello" ID="{24D1F1E7-8A5B-4B81-A20F-133359E97404}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3"/>
+				<Effect Name="EQ_BatterieCym" ID="{0BED7FD0-10D8-4DC2-AEB2-233E95E36C61}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="10789"/>
+						<Property Name="GainBand3" Type="Real32" Value="-6.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="EQ_Feuilles" ID="{1D7529A2-6F5A-4FC5-9EDA-920688436B0C}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="9541"/>
+						<Property Name="GainBand3" Type="Real32" Value="-5.5"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
