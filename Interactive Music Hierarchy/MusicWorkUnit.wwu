@@ -293,11 +293,6 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" ShortID="1067208182">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="80"/>
 							</PropertyList>
@@ -454,6 +449,13 @@
 													<Language>SFX</Language>
 													<AudioFile>3M-DRUMS-B.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="8M-Drums-Calm" ID="{858411DC-6AE3-4F52-BED8-E473B36F2AF5}" ShortID="187970521">
+													<Language>SFX</Language>
+													<AudioFile>8M-Drums-Calm.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="478430815"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{6E41FAC6-2E95-4A6F-8485-F925330B2CD5}">
@@ -485,6 +487,18 @@
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="3M-DRUMS-B" ID="{A3596C9F-35A0-4193-A850-91802D48C192}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{38898FDA-F2AD-428C-BAEE-1FAE28D04406}">
+													<ClipList>
+														<MusicClip Name="8M-Drums-Calm" ID="{C2E51751-F6F8-4BB9-8737-160F394907E7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="8M-Drums-Calm" ID="{858411DC-6AE3-4F52-BED8-E473B36F2AF5}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -2240,11 +2254,38 @@
 											</PropertyList>
 											<SegmentRef Name="Batt_Piano_Vibra" ID="{A1A7FBA1-09CB-4E2D-A792-49D42ADC6D84}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{D6A8D624-ECE2-4E0B-929C-57011FDC5BD6}" ShortID="663503627">
+										<MusicPlaylistItem Name="" ID="{4FEB30E9-2222-4B2B-A861-B342EE1DF956}" ShortID="393665147">
 											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="PlayMode" Type="int16" Value="3"/>
 											</PropertyList>
-											<SegmentRef Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}"/>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{44F624DB-043F-431B-B7E1-EF2883ADAEFF}" ShortID="840689311">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{D2CAA33A-B4EB-47D3-8172-0D15A825AB59}" ShortID="36393066">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}"/>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{9D650A24-5C66-4C35-A81A-00C285DE5DC0}" ShortID="150713617">
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{745E7538-DE29-4DDE-904F-71FACA5B382D}" ShortID="570080867">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="Intro_Batt" ID="{C22BB823-0AC1-4910-9CFC-1E95C73F9B6D}"/>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{D6A8D624-ECE2-4E0B-929C-57011FDC5BD6}" ShortID="663503627">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}"/>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</ChildrenList>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
