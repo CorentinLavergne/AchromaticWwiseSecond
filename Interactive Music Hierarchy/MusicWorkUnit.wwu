@@ -307,7 +307,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Intro_Batt" ID="{C22BB823-0AC1-4910-9CFC-1E95C73F9B6D}" ShortID="238384572">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="10819.4285714286"/>
+										<Property Name="EndPosition" Type="Real64" Value="22000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -318,100 +318,27 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="BATTERIE-001" ID="{0B40D6ED-2751-4196-BA95-65CBE92A3CFB}" ShortID="566368096">
+										<MusicTrack Name="2M-DRUMS-A" ID="{B473DD44-9D36-45A1-B5AC-5A0A5B1F94BF}" ShortID="161243938">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
-												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-													<ObjectRef Name="EQ_BatterieCym" ID="{0BED7FD0-10D8-4DC2-AEB2-233E95E36C61}" WorkUnitID="{749F3AAC-8AD7-4758-B0D3-2B714B87CA03}"/>
-												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BATTERIE-001" ID="{91CDC94D-18B2-46F7-8744-E43017166A5E}" ShortID="637704944">
+												<AudioFileSource Name="2M-DRUMS-A" ID="{3E78076E-F435-4FA8-9610-9CB07F0FA5BB}" ShortID="504107070">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-001.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="768076036"/>
-													</ConvertedFileIDList>
+													<AudioFile>2M-DRUMS-A.wav</AudioFile>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-002" ID="{162F9244-6C9C-47D7-A3E1-155953C1F994}" ShortID="112117869">
+												<AudioFileSource Name="2M-DRUMS-B" ID="{9955B352-57CA-4B1D-B4E6-B8E4ACD9A49B}" ShortID="82715971">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-002.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="702351034"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-003" ID="{975B1FE2-3CCF-4811-AEE4-9998C8E97528}" ShortID="602337903">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-003.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="35789335"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-004" ID="{3BA1A123-7129-4806-91AB-DA6CBC053B47}" ShortID="866214520">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-004.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="128360679"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-005" ID="{82AE1DB4-F393-4705-A250-1F918585A04F}" ShortID="16478790">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-005.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="7298924"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-006" ID="{91D5598B-A077-465B-9093-9AE8DF5B174E}" ShortID="959373530">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-006.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1009252245"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-007" ID="{FAD952BD-FB31-40BD-AB74-4602050A7C02}" ShortID="941834007">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-007.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="883840472"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-008" ID="{50FE24B3-B8FD-4C71-92D0-681695577A8E}" ShortID="545253876">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-008.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="551177651"/>
-													</ConvertedFileIDList>
+													<AudioFile>2M-DRUMS-B.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="InMenu" ID="{745B0C81-41CE-4DB0-B8D4-50DD6E115F8B}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="No" ID="{F2862166-A659-473E-94C1-B52427A10DD1}"/>
-														<CustomState Name="" ID="{19B14D9C-1D2F-4113-96F1-1D586FA67AE2}" ShortID="1026536003"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Yes" ID="{3FE4D6C0-5D7A-4F4F-8192-C2B2ED755F88}"/>
-														<CustomState Name="" ID="{EE6F9052-E161-41B9-9A11-477F8492B80F}" ShortID="886499364">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{9BAA9453-E580-4ACA-BD40-93417E4CD477}">
+												<MusicTransition Name="Root" ID="{F5DDF73E-E6C4-46B8-B93A-70E06CBC5BA7}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -419,99 +346,27 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{46CA7EC2-5F54-47EA-A095-8E60AC6DFA6C}">
+												<MusicTrackSequence Name="" ID="{DC14BC08-BB70-4894-A956-A4EE8D4AD1B3}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-001" ID="{99148F3C-F77E-49E7-BA44-7EFD9A49F499}">
+														<MusicClip Name="2M-DRUMS-A" ID="{F8442249-4B43-4B21-AC44-27CAFCFB9A89}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{91CDC94D-18B2-46F7-8744-E43017166A5E}"/>
+															<AudioSourceRef Name="2M-DRUMS-A" ID="{3E78076E-F435-4FA8-9610-9CB07F0FA5BB}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{CD9B0E24-47E7-4B72-ADA3-B6051201DCAA}">
+												<MusicTrackSequence Name="" ID="{3B612CA3-2BA6-487B-91DC-A8AD5A7FCF14}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-002" ID="{DB30DE64-19E8-4FB4-B6C1-D1DC364F037E}">
+														<MusicClip Name="2M-DRUMS-B" ID="{FD31CA26-7E05-40ED-BBC7-828571ECDAFE}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{162F9244-6C9C-47D7-A3E1-155953C1F994}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{4CFB0451-BA56-4FA7-B88D-FC92BB161FD7}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-003" ID="{3BF11880-2A0E-46F8-BCF2-A482DCE471EC}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{975B1FE2-3CCF-4811-AEE4-9998C8E97528}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{53A3686C-C5C0-4233-A8B2-5080387799C9}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-004" ID="{020A59E8-18FB-461F-8694-426C5FE679F5}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-004" ID="{3BA1A123-7129-4806-91AB-DA6CBC053B47}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{67B24839-3A23-4528-871C-2ECA379B47A5}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-005" ID="{2135683B-2CB8-4AEE-AF39-F93942ADBA31}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{82AE1DB4-F393-4705-A250-1F918585A04F}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{7A8A74CD-2053-436C-9CC3-BCC9A8080CCB}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-006" ID="{D9E15E04-C847-461E-946E-F6C4ABB2E473}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{91D5598B-A077-465B-9093-9AE8DF5B174E}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{4E336A90-9DBC-4678-B767-A7087FB03353}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-007" ID="{9547473E-DEC1-41D1-ABFD-BF48A8C94557}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{FAD952BD-FB31-40BD-AB74-4602050A7C02}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{E796D728-7C04-42A1-8B1A-43E3D290FDAE}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-008" ID="{F17CD037-07D6-4B3E-9877-CB1E14AEF8E2}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{50FE24B3-B8FD-4C71-92D0-681695577A8E}"/>
+															<AudioSourceRef Name="2M-DRUMS-B" ID="{9955B352-57CA-4B1D-B4E6-B8E4ACD9A49B}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -523,7 +378,7 @@
 										<MusicCue Name="Exit Cue" ID="{6434A6DF-9DA6-480B-A0A2-E1E288FA16D6}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="6000"/>
+												<Property Name="TimeMs" Type="Real64" Value="12000"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -541,1106 +396,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="BATTERIE-001" ID="{ACDD16D3-FB23-4201-9576-FAA73454993E}" ShortID="73958687">
-											<PropertyList>
-												<Property Name="MusicTrackType" Type="int16" Value="1"/>
-												<Property Name="OverrideEffect" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
-												</Reference>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-													<ObjectRef Name="EQ_BatterieCym" ID="{0BED7FD0-10D8-4DC2-AEB2-233E95E36C61}" WorkUnitID="{749F3AAC-8AD7-4758-B0D3-2B714B87CA03}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BATTERIE-001" ID="{813E1C9B-032C-430D-B173-CDFEC5154766}" ShortID="704759896">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-001.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="768076036"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-002" ID="{CAD786E6-10F7-434F-824F-9CB6397FDBA1}" ShortID="607111089">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-002.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="702351034"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-003" ID="{9AF3AD11-E8AD-42A4-AB46-5192A62C1B13}" ShortID="339692089">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-003.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="35789335"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-004" ID="{58594BA3-BFEB-44C4-AD49-E047767B63BB}" ShortID="47953254">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-004.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="128360679"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-005" ID="{5F0FE80C-7494-4497-AF6B-2A8098652569}" ShortID="958903336">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-005.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="7298924"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-006" ID="{94CE0858-C365-49AA-9DF5-44C0E1906295}" ShortID="710187221">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-006.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1009252245"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-007" ID="{0CE86AD0-D959-4D59-B4AC-7960FDD7E160}" ShortID="1072523432">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-007.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="883840472"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-008" ID="{C5A5DE6F-46C5-4F60-A703-93E3A507532B}" ShortID="362444597">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-008.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="551177651"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="InMenu" ID="{745B0C81-41CE-4DB0-B8D4-50DD6E115F8B}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="No" ID="{F2862166-A659-473E-94C1-B52427A10DD1}"/>
-														<CustomState Name="" ID="{04425006-12C6-4C36-99A8-14EE4C6B753C}" ShortID="641864073"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Yes" ID="{3FE4D6C0-5D7A-4F4F-8192-C2B2ED755F88}"/>
-														<CustomState Name="" ID="{D278DAEF-3951-4F24-8998-4961CCDC87E2}" ShortID="866222237">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{17B892D7-76BE-49A0-8672-5F4A2B0A5A8C}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{919690E1-6BA2-4A98-A95F-C61440D2341A}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-001" ID="{5FA650B8-2A33-4863-9D11-93AB46DD3F30}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{813E1C9B-032C-430D-B173-CDFEC5154766}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{A49EDEC3-FC94-4F78-8634-518D82246BB6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{A31157A6-E8C2-4DA9-85BF-CF87D328A777}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{6AA9AF2A-C488-4712-8E02-BF4124D40FFE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-002" ID="{24F0B27B-1F25-4948-A37D-FF2331379DE8}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{CAD786E6-10F7-434F-824F-9CB6397FDBA1}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{7E72724C-DA05-4E75-B009-4E0B87E77B8E}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-002" ID="{F463B6D7-3DC2-4905-B0FF-0FBE643107B8}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{CAD786E6-10F7-434F-824F-9CB6397FDBA1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{34C94E83-10E6-48A7-8A3C-0EFD515ACABB}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{014074D5-FB9B-4CF5-B9C7-E942336917FB}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{8E854603-FCCE-4B9D-AC6C-144C92F45042}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-003" ID="{F003D318-F94D-4A35-8B2E-E6E317DF1F01}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{9AF3AD11-E8AD-42A4-AB46-5192A62C1B13}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{278925D4-AE61-4E87-A7FE-960E5BB02FA2}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-003" ID="{81160C31-6673-4D24-ADC3-F60170819631}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{9AF3AD11-E8AD-42A4-AB46-5192A62C1B13}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{2088A951-1645-46E9-89DB-5B2E0A27A05A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{46D418B7-057B-4DAC-A9E9-6DC02E9B8E25}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{3ED8AFA8-FE72-4B5E-8A25-11959BED5ECE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-005" ID="{D1AED362-CD7E-48F9-A41B-29793F6E1E18}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7941.02269768868"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{5F0FE80C-7494-4497-AF6B-2A8098652569}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{3DF05C8F-2740-467C-BC71-FB9E48986079}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{A76E3B3D-0A9C-4783-9672-E4DDCED804F8}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{542433DA-AC9F-49B5-9F34-E6DC5348E34B}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{AC4A6AD6-179F-49DC-AE3E-A923CE52499A}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-004" ID="{B04BE2D2-E6E7-464D-AC7C-CAE499CDB32D}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-004" ID="{58594BA3-BFEB-44C4-AD49-E047767B63BB}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{6776B905-7E94-487F-A8DC-1004AF651FD4}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{9F833528-E69D-4687-A786-2488E58CC749}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{A1D4FBCF-4480-4EDB-B6F1-24F434B15DB4}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-008" ID="{7ADCAAA7-C45D-415E-ABE2-A23DECF0F4BC}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7907.55678910784"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{C5A5DE6F-46C5-4F60-A703-93E3A507532B}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{C75016C8-8470-48EF-B7C7-FB48DEC91095}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.90756</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{1B6FDCC1-6C9C-47CE-91C0-A955F4B6412E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.90756</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{69B6BB1B-79F7-4B45-8DED-37DFAC3A4218}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.90756</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{A574A0FD-E7B7-406A-B12D-29A6172510D6}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-005" ID="{3440F4F2-CBA7-4E5E-AB63-E7FBF447EAE5}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{5F0FE80C-7494-4497-AF6B-2A8098652569}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{1664D283-0071-4C16-BA98-F15D00AC83AE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{1B8A7144-7A2B-42A3-846A-4D28908C901D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{2A24BFDF-4AA1-45A4-8D4D-D202F3910E65}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-007" ID="{20249C52-B201-43F0-8260-632AC5FF02AE}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7941.02269768868"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{0CE86AD0-D959-4D59-B4AC-7960FDD7E160}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{9C30D095-0AA0-4344-8D78-AFFE6FFED433}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{C2069447-EF7A-4DAB-AE6F-4D2617195EBE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{F7152C9A-9D02-499B-993B-343AB23A522D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{C0FF043F-A2DE-4827-A881-D0D7141820F7}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-006" ID="{2A3E1CC9-8D55-403D-AD9F-0B784A71C175}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{94CE0858-C365-49AA-9DF5-44C0E1906295}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{6481ABDD-BCCD-4AE7-9EFF-21525D61DCD6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{B3AC4693-556C-470E-9C22-A5C56DB0D5A0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{FC4693DE-CD0E-47AA-AF56-736A07B6FFBE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-005" ID="{AFC16F0E-DDDB-470D-87D1-0F7BA0C250F2}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7941.02269768868"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{5F0FE80C-7494-4497-AF6B-2A8098652569}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{1BBD6798-00DF-4B0E-970E-BC6AF3AEC62F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{C394F842-DBFB-40B9-BCE4-589B0984E9CA}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{35E210AC-4207-4862-B8FC-0638F7A8C703}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{263D4D29-BBBE-431B-97F0-47AAE7C4448D}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-007" ID="{73874F5F-886D-45EA-A983-3C1947DEC7BD}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{0CE86AD0-D959-4D59-B4AC-7960FDD7E160}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{243AFF67-13FF-4A72-832E-45F79202208A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{A0FB461A-518B-4B01-83B6-8D0BA89918D3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{F69D4A45-4252-4EC3-BDEB-35018CA027EE}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-001" ID="{B6AD6459-74D1-426F-8729-536E4C1A099F}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7941.02269768868"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{813E1C9B-032C-430D-B173-CDFEC5154766}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{81739A7F-9812-498B-85AA-49757B1A1DF0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{F7F9B197-70AE-47C5-9954-A2DD4BE225D0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{8D7A3307-9CB1-4C91-98F3-3C11229F43E3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{0A84C71F-6D42-4CEE-9A19-D6137C9B1107}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-008" ID="{4CD9EFF2-97B0-4DC0-A865-5AC2BBEA64DE}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{C5A5DE6F-46C5-4F60-A703-93E3A507532B}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{5C8849CC-BB67-4277-B2BB-5DC890AB5138}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{811579F0-3A4E-4631-A0D3-618E1B2265B0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{A369874B-5FD3-4E77-8D10-3BEB59BF5560}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-006" ID="{0432AC14-900D-4400-AAEB-E5DA19236AFD}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7941.02269768869"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{94CE0858-C365-49AA-9DF5-44C0E1906295}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{94009A39-E085-49BC-A1B0-0DE1C69B21D5}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{99738F56-10FC-4914-A01A-BAEE9F6B3E04}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{E80FEE93-1D03-4BF6-8880-DCA1EA049288}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.94102</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
 										<MusicTrack Name="BASSE" ID="{9A46E104-DB3E-4C98-8496-AB06A9DFC579}" ShortID="1004113197">
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -1676,6 +431,60 @@
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
+										<MusicTrack Name="3M-DRUMS-A" ID="{9FE2FA5D-1212-4FA0-8716-9126FE59EEE0}" ShortID="200724344">
+											<PropertyList>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3M-DRUMS-A" ID="{20E12666-41F7-4017-A238-6FAD16822A34}" ShortID="101036067">
+													<Language>SFX</Language>
+													<AudioFile>3M-DRUMS-A.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="3M-DRUMS-B" ID="{A3596C9F-35A0-4193-A850-91802D48C192}" ShortID="78367018">
+													<Language>SFX</Language>
+													<AudioFile>3M-DRUMS-B.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6E41FAC6-2E95-4A6F-8485-F925330B2CD5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2D87BD53-DEF4-4DFC-A2FB-6EE24C30A555}">
+													<ClipList>
+														<MusicClip Name="3M-DRUMS-A" ID="{477FD677-32A6-4318-B3EA-48C035527FC3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="3M-DRUMS-A" ID="{20E12666-41F7-4017-A238-6FAD16822A34}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{4AEDA573-8ED8-4C68-AA30-989E8B58EF18}">
+													<ClipList>
+														<MusicClip Name="3M-DRUMS-B" ID="{28813361-5851-432A-A749-0E7915921AF3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="22000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="3M-DRUMS-B" ID="{A3596C9F-35A0-4193-A850-91802D48C192}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
 									</ChildrenList>
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{F38E97E1-1E44-4206-AA5E-255372EC14A1}"/>
@@ -1689,7 +498,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Batt_Basse2" ID="{3E82ED91-90D9-4C52-A899-76758B7E7879}" ShortID="249454719">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="26000"/>
+										<Property Name="EndPosition" Type="Real64" Value="28000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1717,61 +526,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BATTERIE-001" ID="{9B8CDA17-A952-4CE4-93BF-F5D3571557E5}" ShortID="648782003">
+												<AudioFileSource Name="8M-Drums-A" ID="{1476AC36-5152-4BF4-A63B-5C046C44937E}" ShortID="82006706">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-001.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="768076036"/>
-													</ConvertedFileIDList>
+													<AudioFile>8M-Drums-A.wav</AudioFile>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-002" ID="{53F8D26C-A501-4599-BD93-57276B8DA889}" ShortID="294506338">
+												<AudioFileSource Name="8M-Drums-B" ID="{22A379A2-58DD-4280-B56C-DD62E4C579EC}" ShortID="870200057">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-002.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="702351034"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-003" ID="{F05478B4-B1FD-4B53-8F5F-D7ED375A7E03}" ShortID="662127477">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-003.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="35789335"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-004" ID="{FF987FDA-B86E-4606-8AD5-15B421E97D50}" ShortID="850391737">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-004.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="128360679"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-005" ID="{F4A0F341-13D9-4CFA-82E1-A50FFE7F9FF1}" ShortID="169402381">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-005.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="7298924"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-006" ID="{F18872BC-C9F3-4903-90F6-577985A07331}" ShortID="479493024">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-006.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1009252245"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-007" ID="{D67F9B85-5AA3-42A8-9DFA-9F330F61B6A1}" ShortID="473445363">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-007.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="883840472"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-008" ID="{ECAE503B-6D7C-44A4-A8BF-949A797DF728}" ShortID="110937558">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-008.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="551177651"/>
-													</ConvertedFileIDList>
+													<AudioFile>8M-Drums-B.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<StateInfo>
@@ -1806,1113 +567,25 @@
 											<SequenceList>
 												<MusicTrackSequence Name="" ID="{E957AED9-E117-45E9-A348-5F876271274E}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-001" ID="{A3463DC9-D68C-4CB5-A99D-60B4D5AA7D17}">
+														<MusicClip Name="8M-Drums-A" ID="{EFE4E0E8-EC3B-4D02-AB24-D7C02A780B9D}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{9B8CDA17-A952-4CE4-93BF-F5D3571557E5}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{7A682814-F1C8-4475-A362-C26661EB4A73}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{6D11B368-2D1F-4A04-BB25-F018E2A3FC25}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{F26331C8-85C9-434E-85F4-16E75F8284E3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-002" ID="{06606972-9936-4E16-83FA-E34B35A24C20}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792209"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{53F8D26C-A501-4599-BD93-57276B8DA889}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{F7239152-5631-4071-8A98-0478A30F1032}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{F2685460-36E5-47FC-9FBD-969A3296C812}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{BFC8232A-B099-4A10-9846-3EE95D283D7D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="8M-Drums-A" ID="{1476AC36-5152-4BF4-A63B-5C046C44937E}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{6BFFEC8F-2598-4499-A2CF-813B0CDBAA37}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-002" ID="{4E8C0CCF-A5B7-49FB-BF1B-275D117B5F20}">
+														<MusicClip Name="8M-Drums-B" ID="{35D4FFF4-7CB5-4365-B2BA-FDBFE06A9A37}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{53F8D26C-A501-4599-BD93-57276B8DA889}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{AE1C9063-3E02-4D43-9CC0-2CC7192E74B8}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{360542FB-5AD5-448F-8775-F569F7F9E941}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{234BDADF-8DD3-48C5-BB56-E30D9C107A3D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-003" ID="{04F40B54-1892-4A91-B16D-975130A14DE8}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792208"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{F05478B4-B1FD-4B53-8F5F-D7ED375A7E03}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{9C80714A-A71F-4D36-934F-500D64D9C283}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{4916EC34-5717-450B-8CF2-518E58807839}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{64145963-2808-4195-864C-9F42A5F53C0E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{C17C8622-6B8D-47CA-BFA1-57E1899BE18F}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-003" ID="{7393067A-F322-498E-888F-2D78371192B2}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{F05478B4-B1FD-4B53-8F5F-D7ED375A7E03}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{A9E0FD28-8529-486E-B474-61E43E1ABD0D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{75AA2A02-AA8B-4A7F-9E18-FF46F793BB8E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{07B96DE1-4C83-42A8-AECC-9C2683F70D9F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-005" ID="{7DBB4C92-B201-4D20-9DD2-75B90C9AE85E}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792208"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{F4A0F341-13D9-4CFA-82E1-A50FFE7F9FF1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{E7D9DE95-D595-40E1-BC79-A4CD024EC4FC}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{9B29F32B-8A74-4051-934A-049015921C16}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{1C34955D-FA8E-430C-B050-E9A1A7D49A8D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{5382EC58-DEED-4D22-B024-AC1BB5656D48}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-004" ID="{4B8C679D-7B2E-4642-AC2C-9C66E54C3FD1}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-004" ID="{FF987FDA-B86E-4606-8AD5-15B421E97D50}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{3EE5284D-C173-4B3B-BA90-5E1294C96061}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{D5B93420-E4FD-4F9C-899D-D2F060A2B5CA}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{5F406576-8FE4-4169-943D-CF53C0B194A7}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-008" ID="{0650881E-D3A6-46F8-A112-4C41A5437EAB}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792209"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{ECAE503B-6D7C-44A4-A8BF-949A797DF728}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{3338A68B-3799-4903-985E-0B1284A9E4C0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{4B19A285-2E7A-4063-9F85-E22D6C5B4F09}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{69A679C5-7F52-4F04-97E4-5E877CD497F3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{9EA8C856-16E5-49E8-91F1-75006348FCF4}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-005" ID="{2890B508-A8DD-4A1A-BBEE-3733CB22DB5A}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{F4A0F341-13D9-4CFA-82E1-A50FFE7F9FF1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{D91860C7-E19E-47A5-9C8A-7841570354D6}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{C60AC531-493F-4A42-9408-1AE32C8170D9}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{9D65C314-5D02-41B9-965D-031FADDA112F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-007" ID="{81E085DD-BACB-410F-9425-3A23E7C42764}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792208"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{D67F9B85-5AA3-42A8-9DFA-9F330F61B6A1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{8D9E7DA7-994B-4285-9A8A-328E4AF2F9E3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{FF9DCF1D-00D4-44EB-A13E-1C01A222EEF0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{37070671-B7E0-48F6-9080-25A704187A67}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{C3EA89E6-24A9-40B9-8F22-C47D6D1E4731}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-006" ID="{6BEF81EE-FCFB-430C-B918-420A2F973CDA}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{F18872BC-C9F3-4903-90F6-577985A07331}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{E021C490-71B6-4F22-9726-431015771B24}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{665A9FD9-8FEA-4255-906D-0EEAEBB4FF30}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{0BD0A55E-D70A-4FEE-A48D-43BF75FA4CB0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-005" ID="{C38B47AA-203B-4544-8BF1-23AF8FB6943C}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792209"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{F4A0F341-13D9-4CFA-82E1-A50FFE7F9FF1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{E2EA56A9-A6C3-49FD-8D2B-AFFACF68E777}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{0F384A71-6B15-4623-BD80-5B2E1E597C97}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{4C814F76-F491-45FA-A797-D79CEFC1C948}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{082D502D-AD34-4567-950A-C72166BB67E5}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-007" ID="{86C39ED7-C0AF-4F9C-B01A-88D56D5CC149}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{D67F9B85-5AA3-42A8-9DFA-9F330F61B6A1}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{6062AF08-1A6B-47AD-891C-841BDB97257B}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{019788B7-7D79-424D-8C37-7FB65DC3B795}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{168403F4-B056-47EC-AE9A-734436715C99}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-001" ID="{C2E4D340-89A4-45AE-BDDE-0C65FF1067BB}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792209"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{9B8CDA17-A952-4CE4-93BF-F5D3571557E5}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{EA826024-45B8-4051-B45D-990534D72E02}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{7767FA6C-9AAA-4E4F-94DC-D02241FA10E0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{CFD2582A-992B-4EEF-B8E6-A2F109CDCF55}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{871B698F-622C-43AB-AB09-F99F7BB35A67}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-008" ID="{54CF347E-ECB7-4F16-8F25-DCC0E2B9573B}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{ECAE503B-6D7C-44A4-A8BF-949A797DF728}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{1D81D958-74C9-49BD-8858-DF3DFD88EC95}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{5CB446F9-9C94-4FF3-8151-A7A83B55DCB7}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{5C7E9DA8-599D-4E3F-9099-E7F79828994D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>6</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-														<MusicClip Name="BATTERIE-006" ID="{838755D4-1D3E-4A14-BA63-605A821FB6B1}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7917.92207792209"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{F18872BC-C9F3-4903-90F6-577985A07331}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{81CC5133-7415-48D2-83CE-68A3B8DD4C22}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{A1AACC37-3ED7-41C4-9FE3-1B66E9858244}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{CAC9A75B-88CA-4BB6-A992-25CAD594C79E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>7.91792</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="8M-Drums-B" ID="{22A379A2-58DD-4280-B56C-DD62E4C579EC}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -2943,11 +616,70 @@
 													<ClipList>
 														<MusicClip Name="CELLO-002" ID="{7FA11191-6048-42C8-9440-7FFD04987C7F}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="26000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="19500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="CELLO-002" ID="{300A466A-06CD-4501-8673-1AC171E6915A}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{2C87F74A-88A9-4E4E-8DF8-677F0CEA77E5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{F5997DC3-2BBC-45AC-AD62-CEB63FFF5F2F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{292E3CAA-5785-4E95-80CB-2AB8FEAC8518}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>19.5</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -3008,27 +740,6 @@
 														<File ID="702351034"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-003" ID="{235B6C47-A4D6-44CD-84F1-2C331707F412}" ShortID="144758126">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-003.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="35789335"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-004" ID="{ACD4FC3E-BD66-4040-8BD6-5857CC456BDF}" ShortID="644765522">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-004.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="128360679"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-005" ID="{313735C2-9C6D-4DE4-AFE8-0C35154444F1}" ShortID="196747045">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-005.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="7298924"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="BATTERIE-006" ID="{5144EB2C-9741-42EB-8D6E-15B2D615D140}" ShortID="635086874">
 													<Language>SFX</Language>
 													<AudioFile>BATTERIE-006.wav</AudioFile>
@@ -3036,23 +747,13 @@
 														<File ID="1009252245"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-007" ID="{30331BC9-66DB-44B9-8D99-86B131EB46AE}" ShortID="195493961">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-007.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="883840472"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-008" ID="{66661457-E31F-4E85-A85B-8DEEFB3F1E33}" ShortID="10729843">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-008.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="551177651"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}" ShortID="784186395">
 													<Language>SFX</Language>
 													<AudioFile>BREAK_BATTERIE.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="8M-DRUMS" ID="{C7F3986B-22B5-4804-8F0F-A05FA6ED1B2D}" ShortID="122317180">
+													<Language>SFX</Language>
+													<AudioFile>8M-DRUMS.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<StateInfo>
@@ -3249,487 +950,13 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{7C278253-2109-4515-AFA0-6DECAD0AC493}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-003" ID="{90908179-F84E-4B35-8318-2F7468DC18C8}">
+														<MusicClip Name="8M-DRUMS" ID="{1EF0607A-31E6-40F4-8724-3E8B9C468C50}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{235B6C47-A4D6-44CD-84F1-2C331707F412}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{01F53560-2478-4398-8B6C-70DF4C3D066E}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{EF0BB0CF-9CF0-48ED-8C59-7486F4B93E5E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{AE8F391A-69FC-4C6B-9978-4EB7164FCA8C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{D7999A0A-8A59-4631-B8AA-CF51E61F2A36}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{04ECF88D-8029-469D-AD89-69F8E1642958}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-004" ID="{7BB450D2-2A65-4102-911F-9D142786F49E}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-004" ID="{ACD4FC3E-BD66-4040-8BD6-5857CC456BDF}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{D723045A-C443-459F-939B-E1C6A673617F}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{2D771624-6A55-4EE5-B9FB-DF144D6326FC}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{1A26D48E-3784-4E76-8074-41DB13FD20B3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{3256990E-8601-42CC-A28E-E35E221F9338}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{885587F4-F953-45F1-BA4B-A11EE7C6F748}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-005" ID="{ADE9B01F-8D6D-4496-B57F-422776AA8130}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{313735C2-9C6D-4DE4-AFE8-0C35154444F1}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{0169CB49-D4DF-4C90-8F45-CC98B43FEAAD}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{9AB83C63-A2B0-4CB2-B080-CC171805B6C2}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{767A3367-DA5A-43F1-9B7B-97A722D39B49}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{7D5C49C0-3128-4CB5-99AA-828943B4302E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{0A900E2A-C118-4BCB-A4E9-EB175771D719}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-006" ID="{4C2B664A-24C8-47E2-BE5F-49383DDB89E5}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{5144EB2C-9741-42EB-8D6E-15B2D615D140}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{0D0C9A12-E648-471E-AD15-F3843FFC3A85}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{3371BACA-50EB-4EBE-B68E-46B084B57941}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{37958B81-1B4B-4812-B408-D0F3367BE4DA}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{BE59D495-4C57-4CF0-9B82-0AEACFCBC8DA}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{B91F3FA5-A6FB-4FD3-9C34-38928365D280}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-007" ID="{ED960495-BCAE-4B95-85D8-39AFE60A187C}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{30331BC9-66DB-44B9-8D99-86B131EB46AE}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{9DABD182-C20B-46D6-AA64-FC211A1830FA}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{AA41FC68-AD9A-4471-89A8-8C8B9EC91F2C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{4B2BA0B1-8275-41E8-9F8D-D2B17874A2B3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{B3BD8FE9-FE62-4578-B925-792A42011D87}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{2BCFA5D3-7548-4C1E-9321-E037911B8964}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-008" ID="{FD9FE019-B52F-4D76-A9CB-0D9DB7CFE2FB}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{66661457-E31F-4E85-A85B-8DEEFB3F1E33}"/>
-														</MusicClip>
-														<MusicClip Name="BREAK_BATTERIE" ID="{B89A073F-D75F-43DF-BDEA-913E62133026}">
-															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3750"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="6000"/>
-															</PropertyList>
-															<AudioSourceRef Name="BREAK_BATTERIE" ID="{62A89761-61FC-421F-83EA-23AB80D886AF}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{3CA2E771-D4BF-4E9E-BBC5-309AD045DDD0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{04DB645D-1337-4C9A-B9F9-452E83F53E0D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{671C9D40-6C1E-4508-91C2-E0306F6C439D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.75</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>16</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="8M-DRUMS" ID="{C7F3986B-22B5-4804-8F0F-A05FA6ED1B2D}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -3934,6 +1161,13 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Cello" ID="{94E7B513-2890-4EDF-A324-F420813A2132}" ShortID="134004497">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
@@ -3981,7 +1215,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}" ShortID="955198096">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="28250"/>
+										<Property Name="EndPosition" Type="Real64" Value="29991.1131898971"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4175,61 +1409,23 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BATTERIE-001" ID="{5F42A243-2F1C-46CB-B028-1FBE69861D95}" ShortID="804941494">
+												<AudioFileSource Name="8M-Drums-A" ID="{3F3389A7-2EE8-45E7-BEF1-7457BEFE5731}" ShortID="156033514">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-001.wav</AudioFile>
+													<AudioFile>8M-Drums-A.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="768076036"/>
+														<File ID="82006706"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-002" ID="{3C439B95-986E-463A-B873-15A174B7B875}" ShortID="807038588">
+												<AudioFileSource Name="8M-Drums-B" ID="{428FE8E6-D0C2-4DFF-A8CF-2415DE6AE5F9}" ShortID="253469330">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-002.wav</AudioFile>
+													<AudioFile>8M-Drums-B.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="702351034"/>
+														<File ID="870200057"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-003" ID="{126C8C99-0B46-4F73-9819-949618FCE33D}" ShortID="479219342">
+												<AudioFileSource Name="8M-Drums-Calm" ID="{5D5BA432-D153-4CDA-ABF6-CE8969252A41}" ShortID="478430815">
 													<Language>SFX</Language>
-													<AudioFile>BATTERIE-003.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="35789335"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-004" ID="{4537E9D1-3457-46ED-B4A8-43AD89F3F2B4}" ShortID="43974724">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-004.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="128360679"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-005" ID="{3F8E5C70-4463-4FA6-B627-97DB3C5F6CFD}" ShortID="627655750">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-005.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="7298924"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-006" ID="{4DFB0DBF-8CAD-4E40-8726-B8E7EA98CDB0}" ShortID="658867880">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-006.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1009252245"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-007" ID="{A018F90F-D804-4AFC-AEF5-D50BE5137691}" ShortID="261635194">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-007.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="883840472"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="BATTERIE-008" ID="{D7E35D2B-DA19-41DF-AEF5-CB534ACB35E1}" ShortID="378411563">
-													<Language>SFX</Language>
-													<AudioFile>BATTERIE-008.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="551177651"/>
-													</ConvertedFileIDList>
+													<AudioFile>8M-Drums-Calm.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<StateInfo>
@@ -4262,105 +1458,52 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{F10504F9-A8AF-4759-ABC9-E85AA2956775}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-001" ID="{B1788898-B615-433D-A168-4B3FE4D779FE}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-001" ID="{5F42A243-2F1C-46CB-B028-1FBE69861D95}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{FA980AFE-8D00-43A6-8DDA-F04964134ABB}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-002" ID="{DD012B93-47A3-489B-896D-F9FA1CDE159D}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-002" ID="{3C439B95-986E-463A-B873-15A174B7B875}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{55DE3A78-7317-447D-B20C-1B0224E03593}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-003" ID="{844363B8-E037-466E-A3DD-244158A42FC1}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-003" ID="{126C8C99-0B46-4F73-9819-949618FCE33D}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{F12FF227-E7EB-42E8-931A-205F566E0CB8}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-004" ID="{6B0F5D20-9F66-4574-B52E-DDB141C2C805}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-004" ID="{4537E9D1-3457-46ED-B4A8-43AD89F3F2B4}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{B3408677-36E8-4FAB-BE1A-4590877D41B0}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-005" ID="{C33B4826-B847-4F60-8C99-D41C1BEF7C7D}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-005" ID="{3F8E5C70-4463-4FA6-B627-97DB3C5F6CFD}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{58720544-1617-40C4-8D05-DBFC5ECC0F09}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-006" ID="{33552B05-9E57-4586-BA0A-15F20895C20E}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-006" ID="{4DFB0DBF-8CAD-4E40-8726-B8E7EA98CDB0}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-												<MusicTrackSequence Name="" ID="{A91B8B79-4E77-4D5B-97D2-DD9B6602C312}">
-													<ClipList>
-														<MusicClip Name="BATTERIE-007" ID="{83B9917E-0897-436D-B92F-3A72C2D67CB8}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-007" ID="{A018F90F-D804-4AFC-AEF5-D50BE5137691}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{2DD597B5-B577-4A21-9AF1-9CA28FA85E67}">
 													<ClipList>
-														<MusicClip Name="BATTERIE-008" ID="{7602EDF8-034A-4612-9D26-5BA0688658E7}">
+														<MusicClip Name="8M-Drums-Calm" ID="{984F023C-19A7-4893-AA28-B270E95C241C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="BATTERIE-008" ID="{D7E35D2B-DA19-41DF-AEF5-CB534ACB35E1}"/>
+															<AudioSourceRef Name="8M-Drums-Calm" ID="{5D5BA432-D153-4CDA-ABF6-CE8969252A41}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{A8F2E358-397A-484B-9F93-58A4C42AD693}">
+													<ClipList>
+														<MusicClip Name="8M-Drums-A" ID="{585A5403-D8F1-4EAE-AA3E-0B6FE3BE010D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="8M-Drums-A" ID="{3F3389A7-2EE8-45E7-BEF1-7457BEFE5731}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+												<MusicTrackSequence Name="" ID="{E29DCA95-4800-42E2-91A7-C4353028CBC8}">
+													<ClipList>
+														<MusicClip Name="8M-Drums-B" ID="{3F6470D2-A5C5-483E-877D-61053B2A11E4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="28000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="8M-Drums-B" ID="{428FE8E6-D0C2-4DFF-A8CF-2415DE6AE5F9}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Cello" ID="{9864AEB9-1E60-4B4A-A0A1-CD9F31CC1D40}" ShortID="53040164">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}"/>
@@ -4381,6 +1524,10 @@
 													<ConvertedFileIDList>
 														<File ID="1025221322"/>
 													</ConvertedFileIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="CELLO-006" ID="{FEFDB623-A3CA-4CC3-8D58-5C3DEE48C2D9}" ShortID="526710311">
+													<Language>SFX</Language>
+													<AudioFile>CELLO-006.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -4869,73 +2016,14 @@
 																</PropertyCurve>
 															</PropertyCurveList>
 														</MusicClip>
-														<MusicClip Name="CELLO-005" ID="{45A79409-C01A-4BF6-A91D-C041701FE8D0}">
+														<MusicClip Name="CELLO-006" ID="{DF7604F2-A9C2-4DD2-AD92-4484E36EB76F}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="3000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="7000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																<Property Name="PlayAt" Type="Real64" Value="21000"/>
 															</PropertyList>
-															<AudioSourceRef Name="CELLO-005" ID="{5A4E4B86-631F-4AC1-987C-A59CF0E6686E}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{B9154F94-ACD5-4EA4-8B58-7ECCAC510625}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>3</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{C714D2DF-D73F-48CF-86F6-A376AC57580D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>3</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{689B9815-EA83-4227-84B1-982F35649721}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>3</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="CELLO-006" ID="{FEFDB623-A3CA-4CC3-8D58-5C3DEE48C2D9}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -5118,7 +2206,6 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{4FB81D5E-2351-41DA-A037-CE21079AA0F7}" ShortID="144465000">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="2"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Intro_Batt" ID="{C22BB823-0AC1-4910-9CFC-1E95C73F9B6D}"/>
