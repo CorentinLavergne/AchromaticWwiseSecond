@@ -34,10 +34,6 @@
 				<Event Id="2893389474" Name="Stop_TV" ObjectPath="\Events\Default Work Unit\Ambient\Stop_TV" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="7298924" Language="SFX">
-					<ShortName>BATTERIE-005.wav</ShortName>
-					<Path>SFX\BATTERIE-005_592D8723.wem</Path>
-				</File>
 				<File Id="15145248" Language="SFX">
 					<ShortName>VIBRA-002.wav</ShortName>
 					<Path>SFX\VIBRA-002_592D8723.wem</Path>
@@ -54,10 +50,6 @@
 					<ShortName>PARQUET-005.wav</ShortName>
 					<Path>SFX\PARQUET-005_E37C7245.wem</Path>
 				</File>
-				<File Id="35789335" Language="SFX">
-					<ShortName>BATTERIE-003.wav</ShortName>
-					<Path>SFX\BATTERIE-003_592D8723.wem</Path>
-				</File>
 				<File Id="63054959" Language="SFX">
 					<ShortName>PAS_PARQUET-008.wav</ShortName>
 					<Path>SFX\PAS_PARQUET-008_E37C7245.wem</Path>
@@ -65,6 +57,18 @@
 				<File Id="69543352" Language="SFX">
 					<ShortName>TV_EMIT.wav</ShortName>
 					<Path>SFX\TV_EMIT_592D8723.wem</Path>
+				</File>
+				<File Id="78367018" Language="SFX">
+					<ShortName>3M-DRUMS-B.wav</ShortName>
+					<Path>SFX\3M-DRUMS-B_592D8723.wem</Path>
+				</File>
+				<File Id="82006706" Language="SFX">
+					<ShortName>8M-Drums-A.wav</ShortName>
+					<Path>SFX\8M-Drums-A_592D8723.wem</Path>
+				</File>
+				<File Id="82715971" Language="SFX">
+					<ShortName>2M-DRUMS-B.wav</ShortName>
+					<Path>SFX\2M-DRUMS-B_592D8723.wem</Path>
 				</File>
 				<File Id="84516584" Language="SFX">
 					<ShortName>PAS_TAPIS-003.wav</ShortName>
@@ -74,13 +78,17 @@
 					<ShortName>VIBRA-005.wav</ShortName>
 					<Path>SFX\VIBRA-005_592D8723.wem</Path>
 				</File>
+				<File Id="101036067" Language="SFX">
+					<ShortName>3M-DRUMS-A.wav</ShortName>
+					<Path>SFX\3M-DRUMS-A_592D8723.wem</Path>
+				</File>
 				<File Id="120859536" Language="SFX">
 					<ShortName>PAS_PARQUET-003.wav</ShortName>
 					<Path>SFX\PAS_PARQUET-003_E37C7245.wem</Path>
 				</File>
-				<File Id="128360679" Language="SFX">
-					<ShortName>BATTERIE-004.wav</ShortName>
-					<Path>SFX\BATTERIE-004_592D8723.wem</Path>
+				<File Id="122317180" Language="SFX">
+					<ShortName>8M-DRUMS.wav</ShortName>
+					<Path>SFX\8M-DRUMS_592D8723.wem</Path>
 				</File>
 				<File Id="172074524" Language="SFX">
 					<ShortName>POSER FEUILLES-007.wav</ShortName>
@@ -170,9 +178,21 @@
 					<ShortName>CELLO-002.wav</ShortName>
 					<Path>SFX\CELLO-002_592D8723.wem</Path>
 				</File>
+				<File Id="478430815" Language="SFX">
+					<ShortName>8M-Drums-Calm.wav</ShortName>
+					<Path>SFX\8M-Drums-Calm_592D8723.wem</Path>
+				</File>
 				<File Id="496174279" Language="SFX">
 					<ShortName>PAS_VIR_PARQUET-002.wav</ShortName>
 					<Path>SFX\PAS_VIR_PARQUET-002_9E58EA70.wem</Path>
+				</File>
+				<File Id="504107070" Language="SFX">
+					<ShortName>2M-DRUMS-A.wav</ShortName>
+					<Path>SFX\2M-DRUMS-A_592D8723.wem</Path>
+				</File>
+				<File Id="526710311" Language="SFX">
+					<ShortName>CELLO-006.wav</ShortName>
+					<Path>SFX\CELLO-006_592D8723.wem</Path>
 				</File>
 				<File Id="538196052" Language="SFX">
 					<ShortName>POSER FEUILLES-003.wav</ShortName>
@@ -181,10 +201,6 @@
 				<File Id="545437078" Language="SFX">
 					<ShortName>TV_STATIC.wav</ShortName>
 					<Path>SFX\TV_STATIC_592D8723.wem</Path>
-				</File>
-				<File Id="551177651" Language="SFX">
-					<ShortName>BATTERIE-008.wav</ShortName>
-					<Path>SFX\BATTERIE-008_592D8723.wem</Path>
 				</File>
 				<File Id="567844903" Language="SFX">
 					<ShortName>STORE FERME-002.wav</ShortName>
@@ -286,9 +302,9 @@
 					<ShortName>PARQUET-003.wav</ShortName>
 					<Path>SFX\PARQUET-003_E37C7245.wem</Path>
 				</File>
-				<File Id="883840472" Language="SFX">
-					<ShortName>BATTERIE-007.wav</ShortName>
-					<Path>SFX\BATTERIE-007_592D8723.wem</Path>
+				<File Id="870200057" Language="SFX">
+					<ShortName>8M-Drums-B.wav</ShortName>
+					<Path>SFX\8M-Drums-B_592D8723.wem</Path>
 				</File>
 				<File Id="901382114" Language="SFX">
 					<ShortName>POSER FEUILLES-004.wav</ShortName>

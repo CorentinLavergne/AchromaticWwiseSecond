@@ -293,6 +293,11 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" ShortID="1067208182">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="80"/>
 							</PropertyList>
@@ -2356,7 +2361,7 @@
 								<PathElementRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
+								<AudioNodeRef Name="Ingame(OLD)" ID="{62919D3E-5DF8-4F50-B6E2-DD0CFE44C8B8}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

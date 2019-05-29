@@ -119,7 +119,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Parquet" ID="{A5548766-BFC2-4249-A3C3-793A967F787D}"/>
 						<CurrentStateRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
-						<CurrentStateRef Name="No" ID="{F2862166-A659-473E-94C1-B52427A10DD1}"/>
+						<CurrentStateRef Name="Yes" ID="{3FE4D6C0-5D7A-4F4F-8192-C2B2ED755F88}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Off" ID="{590A1A4C-02B7-423A-A9E8-DBE0C53DA433}"/>
