@@ -340,11 +340,6 @@
 								<MusicSegment Name="Intro_Batt" ID="{C22BB823-0AC1-4910-9CFC-1E95C73F9B6D}" ShortID="238384572">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="22000"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -433,11 +428,6 @@
 								<MusicSegment Name="Batt_Basse" ID="{5D40F5EC-5E8F-4E0E-BFFD-4108286D691D}" ShortID="188090100">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="83546.875"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -580,11 +570,6 @@
 								<MusicSegment Name="Batt_Basse2" ID="{3E82ED91-90D9-4C52-A899-76758B7E7879}" ShortID="249454719">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="28000"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -795,11 +780,6 @@
 								<MusicSegment Name="Batt_Piano_Vibra" ID="{A1A7FBA1-09CB-4E2D-A792-49D42ADC6D84}" ShortID="429557110">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="37000"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1347,11 +1327,6 @@
 								<MusicSegment Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}" ShortID="955198096">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="29991.1131898971"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>

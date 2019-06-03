@@ -427,6 +427,11 @@
 						<Sound Name="HORLOGE" ID="{CB193D56-052E-44D0-93AA-3F0BB041E4E3}" ShortID="942529973">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
