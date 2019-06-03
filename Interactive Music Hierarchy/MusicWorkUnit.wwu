@@ -4,6 +4,13 @@
 		<WorkUnit Name="MusicWorkUnit" ID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" ShortID="845435195">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1F9FADC8-9FC9-4784-8E57-999357F2920F}"/>
@@ -157,6 +164,16 @@
 								<MusicSegment Name="AchromaticMenu" ID="{B7A9244F-A380-4B6E-B146-5BCC3CB372EB}" ShortID="419272696">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="88050"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -216,6 +233,16 @@
 								<MusicSegment Name="Silence" ID="{6C6D4551-7A56-4195-B965-C811261368E2}" ShortID="352986245">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="15341.3566739606"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -295,6 +322,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="80"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -308,6 +340,16 @@
 								<MusicSegment Name="Intro_Batt" ID="{C22BB823-0AC1-4910-9CFC-1E95C73F9B6D}" ShortID="238384572">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="22000"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -321,6 +363,11 @@
 										<MusicTrack Name="2M-DRUMS-A" ID="{B473DD44-9D36-45A1-B5AC-5A0A5B1F94BF}" ShortID="161243938">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -386,6 +433,16 @@
 								<MusicSegment Name="Batt_Basse" ID="{5D40F5EC-5E8F-4E0E-BFFD-4108286D691D}" ShortID="188090100">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="83546.875"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -434,6 +491,11 @@
 										<MusicTrack Name="3M-DRUMS-A" ID="{9FE2FA5D-1212-4FA0-8716-9126FE59EEE0}" ShortID="200724344">
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -518,6 +580,16 @@
 								<MusicSegment Name="Batt_Basse2" ID="{3E82ED91-90D9-4C52-A899-76758B7E7879}" ShortID="249454719">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="28000"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -532,6 +604,11 @@
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -718,6 +795,16 @@
 								<MusicSegment Name="Batt_Piano_Vibra" ID="{A1A7FBA1-09CB-4E2D-A792-49D42ADC6D84}" ShortID="429557110">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="37000"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -732,6 +819,11 @@
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1103,7 +1195,6 @@
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="VIBRA-002" ID="{A4D4E825-0C45-442F-BC31-C6576755566D}"/>
 															<PropertyCurveList>
@@ -1174,6 +1265,27 @@
 																<Property Name="PlayAt" Type="Real64" Value="12000"/>
 															</PropertyList>
 															<AudioSourceRef Name="VIBRA-003" ID="{E8244BFE-9399-4947-B69E-F6017F046FA3}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{9F5E4904-5D8E-4BBD-AD55-E4A43A232ABF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>13.1284583333333</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1235,6 +1347,16 @@
 								<MusicSegment Name="Phrase_Cello" ID="{55E28568-1971-4972-9703-D0D67FDE5C0E}" ShortID="955198096">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="29991.1131898971"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1415,6 +1537,11 @@
 											<PropertyList>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2062,6 +2189,16 @@
 								<MusicSegment Name="StingerArmoire" ID="{E7FA0D1A-EB99-4F86-B139-074A2203DCEE}" ShortID="117382504">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="5125"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2126,6 +2263,16 @@
 								<MusicSegment Name="StingerStore" ID="{F69E6429-7AD3-4A1E-A033-B1567922684A}" ShortID="875738130">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="5875"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2314,7 +2461,7 @@
 											<ObjectRef Name="Menu" ID="{A61B3EE4-185E-498E-BA0F-E3B636AE3656}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
-											<ObjectRef Name="Ingame(OLD)" ID="{62919D3E-5DF8-4F50-B6E2-DD0CFE44C8B8}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
+											<ObjectRef Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
@@ -2347,7 +2494,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="Ingame(OLD)" ID="{62919D3E-5DF8-4F50-B6E2-DD0CFE44C8B8}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
+											<ObjectRef Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
 											<ObjectRef Name="Menu" ID="{A61B3EE4-185E-498E-BA0F-E3B636AE3656}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
@@ -2357,6 +2504,7 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{71C33420-33C9-486E-917F-1DC83C838C42}">
 												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="8"/>
 													<Property Name="FadeOffset" Type="Real64" Value="4"/>
 													<Property Name="FadeTime" Type="Real64" Value="4"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
@@ -2366,7 +2514,7 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{FBE75FC2-828D-4F2C-B8EE-7F1565E17C61}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1.5"/>
 													<Property Name="FadeTime" Type="Real64" Value="4"/>
 												</PropertyList>
 											</MusicFade>
@@ -2402,7 +2550,7 @@
 								<PathElementRef Name="Ingame" ID="{CE357E71-FBC9-4B1A-9DF3-8D99479308EC}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Ingame(OLD)" ID="{62919D3E-5DF8-4F50-B6E2-DD0CFE44C8B8}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
+								<AudioNodeRef Name="Ingame" ID="{6FDEA5DD-F687-4998-949C-94FC81A33BE0}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
