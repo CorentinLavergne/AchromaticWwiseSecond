@@ -4,9 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{B059DFD1-E171-4C7C-95F5-DDC6A5E0BE58}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BypassEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{B79FF5CF-38FF-4B48-BF90-95471675F5A8}" WorkUnitID="{F94C678E-3342-49A4-9DC7-A995C8D789EB}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+							<ObjectRef Name="New_Wwise_Recorder" ID="{97CF30EF-3EBE-4483-905B-2E0118330457}" WorkUnitID="{749F3AAC-8AD7-4758-B0D3-2B714B87CA03}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

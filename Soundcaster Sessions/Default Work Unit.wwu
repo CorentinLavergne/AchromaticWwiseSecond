@@ -18,6 +18,10 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="TV_Complex" ID="{344FE41F-3601-458B-8949-5A15AB0C01FC}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Ventilateur" ID="{B65D4528-CBEB-4311-9ED5-5E4210ECC369}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -28,6 +32,10 @@
 						<Module>
 							<ObjectRef Name="MusicSwitch" ID="{FDBCAB6C-BDB5-4A0D-A394-C313F31FD08F}" WorkUnitID="{0C707485-0FF4-44E3-8F5A-CFB18B272279}"/>
 							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HORLOGE" ID="{CB193D56-052E-44D0-93AA-3F0BB041E4E3}" WorkUnitID="{94315791-350B-40C8-BB1B-CB85633B766A}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_StoreFirst" ID="{207078A1-7147-468B-9343-BD5E44D95C0E}" WorkUnitID="{7EE802EA-1F1B-432B-A3A8-80B8176A3219}"/>

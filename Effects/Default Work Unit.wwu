@@ -21,6 +21,11 @@
 						<Property Name="GainBand3" Type="Real32" Value="-5.5"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_Wwise_Recorder" ID="{97CF30EF-3EBE-4483-905B-2E0118330457}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="AchromaticMood.wav"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

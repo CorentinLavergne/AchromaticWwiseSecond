@@ -174,6 +174,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -232,7 +237,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Silence" ID="{6C6D4551-7A56-4195-B965-C811261368E2}" ShortID="352986245">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="15341.3566739606"/>
+										<Property Name="EndPosition" Type="Real64" Value="35366.0715127323"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
@@ -277,7 +282,7 @@
 										<MusicCue Name="Exit Cue" ID="{25C903CC-0374-4094-9DB8-21461B952E4F}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="15004.3763676149"/>
+												<Property Name="TimeMs" Type="Real64" Value="30000"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -325,6 +330,11 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1254,7 +1264,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
