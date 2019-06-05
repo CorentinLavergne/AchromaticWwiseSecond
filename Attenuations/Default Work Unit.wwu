@@ -177,9 +177,15 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0.87192</YPos>
+											<YPos>-0.07045</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>InvertedSCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>3.46082</XPos>
+											<YPos>-9.24282</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>4</XPos>

@@ -226,7 +226,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Voiture" ID="{2E15E7CB-5965-4F5A-A4DB-BF8F0685BA14}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
